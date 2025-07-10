@@ -62,3 +62,34 @@ nav{
     text-align: center;
     
 }
+.content{
+    width: 80%;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    
+}
+.text-container{
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+}
+.text-container h1{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.text-container p{
+    font-size: 24px;
+    color: #252432;
+}
+
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 48px;
+}
