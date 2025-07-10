@@ -1,35 +1,43 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
-    
+
 }
-.body{
+body{
+    background-color: #e3e8f1;
+}
+
+.body {
     background-image: url(./Assets/Hero-bg.png);
     background-size: cover;
     width: 100%;
     height: 700px;
-    
+
 }
-header{
+
+header {
     width: 80%;
     margin: 0 auto;
     margin-bottom: 158px;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
 }
-.web-name{
+
+.web-name {
     font-size: 34px;
     font-family: "Inter", sans-serif;
-    font-weight:900;
+    font-weight: 900;
     color: #4E47FF;
 }
-.btn{
+
+.btn {
     background-color: #4E47FF;
     color: white;
     padding: 12px 36px;
@@ -39,14 +47,16 @@ nav{
     border: none;
     cursor: pointer;
 }
-.btn:hover{
-    color:antiquewhite;
-    
+
+.btn:hover {
+    color: antiquewhite;
+
     background-color: #2f2da1;
     transition: .5s;
 
 }
-.banner{
+
+.banner {
     width: 905px;
     margin: 0 auto;
     display: flex;
@@ -55,41 +65,104 @@ nav{
     gap: 37px;
     align-items: center;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 48px;
     font-weight: 900;
     color: #252432;
     text-align: center;
-    
+
 }
-.content{
+
+.content {
     width: 80%;
-    margin: 110px auto;
+    margin: 125px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    
+
 }
-.text-container{
+
+.text-container {
     width: 520px;
     display: flex;
     flex-direction: column;
-    gap:20px;
-    
+    gap: 20px;
+
 }
-.text-container h1{
+
+.text-container h1 {
     font-size: 42px;
     font-weight: bold;
     color: #252432;
 }
-.text-container p{
+
+.text-container p {
     font-size: 24px;
     color: #252432;
 }
 
-.img-container img{
+.img-container img {
     width: 100%;
     height: 100%;
     border-radius: 48px;
+}
+
+.users {
+    width: 80%;
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+    padding: 50px 80px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.heading {
+    font-family: "Inter", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.survey {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.survey h1 {
+    font-size: 80px;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    font-weight: bold;
+
+}
+
+.active-user {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+    font-weight: regular;
+    text-align: center;
+}
+
+.review {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 125px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border: 1px solid black;
 }
